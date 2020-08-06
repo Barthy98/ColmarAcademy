@@ -1,11 +1,145 @@
 /* Basic styles */
 
 html {
-  text-align: center;
+  text-align: left;
+  font-size: 16px;
+  color: black;
 }
 
 .flexbox {
   display: flex;
   flex-wrap: wrap;
+}
+
+.white {
+  background-color: white;
+}
+
+.gray {
+  background-color: gray;
+}
+
+h1.center {
+  text-align: center;
+}
+
+/* Heading */
+
+header.flexbox {
+  height: 4rem;
+  text-align: right;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  align-items: center;
+  text-transform: uppercase;
+}
+
+
+/* Main section */
+
+/* Mission */
+
+#mission {
+  align-items: center;
+}
+
+#mission img {
+  max-width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+/* Information */
+
+.main {
+  width: 60%;
+  padding: 2rem 1.5rem 0;
+}
+
+.main img {
+  max-width: 100%;
+}
+
+.container {
+  width: 40%;
+  border: 1px solid gray;
+  flex-direction: column;
+}
+
+.container img {
+  width: 35%;
+  padding: 1rem;
+}
+
+.container span {
+  width: 65%;
+}
+
+.container div.flexbox {
+  align-items: center;
+  width: 100%;
+}
+
+.info_main h1{
+  padding: 2rem 0 1.5rem;
+}
+
+.info_main p {
+  padding-bottom: 2rem;
+}
+
+/* Courses */
+
+#courses div.flexbox {
   justify-content: center;
+}
+
+#courses h1 {
+  padding: 2rem 0;
+}
+
+.course {
+  margin: 0 1rem 2rem;
+  max-width: 33.25rem;
+}
+
+.course h2,.course p {
+  padding: 0 2rem 0 1rem;
+}
+
+.course img {
+  width: 100%;
+  max-height: 17rem;
+}
+
+/* Exhibit */
+
+
+#exhibit h1.center {
+  padding: 2rem 0 ;
+}
+
+#exhibit .main {
+  padding: 0 1.5rem 1.5rem;
+}
+#exhibit .container {
+  border: 0;
+}
+
+.exhibition_main video  {
+  max-width: 100%;
+}
+
+.exhibition_main h1 {
+  padding: 1.5rem 0 0.5rem;
+}
+
+/* Footing */
+
+footer {
+  border-top: 1px solid gray;
+  justify-content: space-between;
+  padding: 1rem 1.5rem 3rem;
 }
