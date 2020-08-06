@@ -2,10 +2,49 @@
 
 html {
   text-align: center;
+  font-size: 16px;
+  color: black;
 }
 
 .flexbox {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.white {
+  background-color: white;
+}
+
+.gray {
+  background-color: gray;
+}
+
+/* Heading */
+
+header.flexbox {
+  height: 4rem;
+  text-align: right;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.logo {
+  align-items: center;
+}
+
+
+/* Main section */
+
+/* Mission */
+
+#mission {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#mission img {
+  width: 60%;
+  margin: 2rem 1.5rem;
 }
