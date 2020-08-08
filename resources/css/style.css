@@ -24,7 +24,7 @@ h1 {
   font-weight: 800;
 }
 
-h2 { 
+h2 {
   font-size: 1.7rem;
 }
 
@@ -43,9 +43,18 @@ a {
   color: blue;
 }
 
-a:hover, .bold span:hover {
+a:hover,
+.bold span:hover {
   font-weight: 700;
 }
+
+a,
+.bold span,
+.button {
+  transition: all 300ms ease-in;
+  cursor: pointer;
+}
+
 
 /* Flex styles */
 
@@ -144,7 +153,7 @@ header.flexbox {
 
 /* Information */
 
-.info_text h1{
+.info_text h1 {
   padding: 2rem 0 1.5rem;
 }
 
@@ -176,7 +185,8 @@ header.flexbox {
   padding-bottom: 1.5rem;
 }
 
-.course h2,.course p {
+.course h2,
+.course p {
   padding: 0 2rem 0 1rem;
 }
 
@@ -197,17 +207,18 @@ header.flexbox {
 
 
 #exhibit h1.center {
-  padding: 2rem 0 ;
+  padding: 2rem 0;
 }
 
 #exhibit .main {
   padding: 0 1.5rem 1.5rem;
 }
+
 #exhibit .container {
   border: 0;
 }
 
-.exhibition video  {
+.exhibition video {
   max-width: 100%;
 }
 
