@@ -11,7 +11,8 @@
     padding: 0;
   }
 
-  .logo span, .options {
+  .logo span,
+  .options {
     display: none;
   }
 
@@ -23,7 +24,7 @@
   .logo img {
     height: 2.5rem;
   }
-  
+
   /* Background color reset */
   .gray {
     background-color: white;
@@ -45,12 +46,12 @@
   #mission .main img {
     max-width: 100%;
   }
-  
+
   .mission_text {
     width: 100%;
   }
 
-  .mission_text h1, 
+  .mission_text h1,
   .mission_text h3 {
     padding: 0 1rem;
   }
@@ -70,6 +71,10 @@
 }
 
 @media only screen and (max-width:480px) {
+  #information {
+    border-bottom: 1px solid #a9a9a970;
+  }
+
   #information .main {
     display: none;
   }
@@ -84,7 +89,7 @@
 
   .container {
     width: 100%;
-   
+
   }
 
   .container img {
@@ -98,13 +103,18 @@
 
   .flex_content * {
     padding: 0 1rem 0.5rem;
-    
+
   }
 }
 
 /* Courses */
 
 @media only screen and (max-width:480px) {
+  #courses {
+    border-bottom: 1px solid #a9a9a970;
+    padding-bottom: 2rem;
+  }
+
   #courses img,
   #courses p {
     display: none;
@@ -125,5 +135,31 @@
     background-color: #a9a9a970;
     padding: 1rem 1rem;
     margin-top: 0.5rem;
+  }
+}
+
+/* Exhibit */
+
+@media only screen and (max-width:480px) {
+  #exhibit div.container,
+  #exhibit h2,
+  #exhibit p {
+    display: none;
+  }
+
+  #exhibit .main {
+    width: 100%;
+  }
+}
+
+/* Footing */
+
+@media only screen and (max-width:480px) {
+  footer {
+    padding-bottom: 1rem;
+  }
+
+  .bold {
+    display: none;
   }
 }
