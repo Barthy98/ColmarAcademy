@@ -1,0 +1,129 @@
+/* Heading */
+
+@media only screen and (min-width: 480px) {
+  .mobile_icon {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  header.flexbox {
+    padding: 0;
+  }
+
+  .logo span, .options {
+    display: none;
+  }
+
+  .logo {
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+
+  .logo img {
+    height: 2.5rem;
+  }
+  
+  /* Background color reset */
+  .gray {
+    background-color: white;
+  }
+}
+
+/* Mission */
+
+@media only screen and (max-width:480px) {
+  #mission {
+    background-color: #a9a9a970;
+  }
+
+  #mission .main {
+    width: 100%;
+    padding: 0;
+  }
+
+  #mission .main img {
+    max-width: 100%;
+  }
+  
+  .mission_text {
+    width: 100%;
+  }
+
+  .mission_text h1, 
+  .mission_text h3 {
+    padding: 0 1rem;
+  }
+
+  .mission_text p {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* Information */
+
+@media only screen and (min-width:480px) {
+  .info_mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  #information .main {
+    display: none;
+  }
+
+  #information * {
+    border: 0;
+  }
+
+  .info_desktop {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+   
+  }
+
+  .container img {
+    width: 100%;
+  }
+
+  .flex_content {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .flex_content * {
+    padding: 0 1rem 0.5rem;
+    
+  }
+}
+
+/* Courses */
+
+@media only screen and (max-width:480px) {
+  #courses img,
+  #courses p {
+    display: none;
+  }
+
+  #courses h1 {
+    padding-bottom: 1rem;
+  }
+
+  .course {
+    width: 100%;
+    margin: 0;
+    padding: 0 1rem;
+  }
+
+  #courses h2 {
+    width: 100%;
+    background-color: #a9a9a970;
+    padding: 1rem 1rem;
+    margin-top: 0.5rem;
+  }
+}
